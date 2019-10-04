@@ -10,18 +10,23 @@
 </head>
 
 <style>
+    *{
+        background-color: #04202c;
+    }
     .heroe {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 60px;
-        background-image: url("https://www.xtrafondos.com/wallpapers/lineas-de-colores-3057.jpg");
+        background-image: url("https://thumbs.dreamstime.com/t/fondo-abstracto-del-movimiento-hd-lazo-37489813.jpg");
         height: 100vh;
+        width: 90vw;
+        margin-left: 3.4vw;
         position: relative;
     }
 
     .titulo {
-        background-color: midnightblue;
-        border-color: coral;
+        background-color: #04202c;
+        border-color: #c9d1c8;
         border-width: 1px;
         border-style: solid;
         grid-template-columns: 100%;
@@ -29,63 +34,67 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: coral;
+        color: #c9d1c8;
+        padding: 16px;
 
     }
 
     .barrita {
-        background-color: antiquewhite;
-        border-right-color: black;
+        background-color: #04202c;
+        border-right-color: #04202c;
         font-size: 25px;
         text-align: center;
         line-height: 60px;
-        color: darkgoldenrod;
+        color: #5b7065;
     }
 
     .portafolio {
+        background-color: #04202c;
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
         height: 400px;
+        margin-left: 3.4vw;
+        margin-right: 4.4vw;
+    }
 
+    .tituloSeparador{
+        background-color: #04202c;
+        text-align: center;
+        padding: 7px;
+        color:#5b7065;
+        font-size: 25px;
 
     }
 
     .proyectsFrame {
-        border-color: lightslategray;
-        border-width: 1px;
-        border-style: solid;
-        background-color: midnightblue;
-        border-color: darkgoldenrod;
+        background-color: #04202c;
+        border-color: #5b7065;
         border-width: 1px;
         border-style: solid;
 
     }
 
     .proyectsFrame h2 {
-        padding: 15px;
         text-align: center;
-        color: darkgoldenrod;
-        background-color: midnightblue;
+        color: #c9d1c8;
+        background-color: #04202c;
     }
 
     .imagen {
-        width: 445px;
+        margin-left: 8px;
+        width: 390px;
+        height: 250px;
     }
 
     .nested {
         display: grid;
-        grid-template-columns: 50% 50%;
-        color: cornsilk;
-        border-color: darkgoldenrod;
-        border-width: 1px;
-        border-style: solid;
-
-
+        grid-template-columns: 46% 54%;
+        color: #c9d1c8;
     }
 
 
     .tituloTec {
-        font-size: 20px;
+        font-size: 120%;
     }
 </style>
 
@@ -102,6 +111,10 @@
             <h2>Ingeniero de Sistemas.</h2>
             <h2>Universidad Metropolitana.</h2>
         </div>
+    </div>
+
+    <div class="tituloSeparador">
+        <p>Portafolio:</p>
     </div>
 
     <div class="portafolio">
@@ -122,12 +135,9 @@
                     </ul>
                 </div>
                 <div>
-                    <br>
-                    <br>
-                    <br>
                     <ul>
-                        <li>Fecha: 24/07/2000</li>
-                        <li>Link: <a href="http://sirius.unimet.edu.ve/">http://sirius.unimet.edu.ve/</a></li>
+                        <li><p class="tituloTec">Fecha de creación:</p> 24/07/2000</li>
+                        <li><p class="tituloTec">Link:</p><a href="http://sirius.unimet.edu.ve/">http://sirius.unimet.edu.ve/</a></li>
                     </ul>
                 </div>
             </div>
@@ -136,7 +146,7 @@
         <div class="proyectsFrame">
             <h2>AMAZON</h2>
             <div><img class="imagen"
-                    src="https://www.telefonoysucursales.com/wp-content/uploads/2018/11/amazon_logo.jpg"
+                    src="http://versionfinal.com.ve/wp-content/uploads/2016/12/Amazon-version-final.jpg"
                     alt="Logo de Amazon"></div>
             <div class="nested">
                 <div>
@@ -146,16 +156,12 @@
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>TypeScript</li>
-                        <li>Java</li>
                     </ul>
                 </div>
                 <div>
-                    <br>
-                    <br>
-                    <br>
                     <ul>
-                        <li>Fecha: 24/07/2000</li>
-                        <li>Link: <a href="https://www.amazon.com/">https://www.amazon.com/</a></li>
+                        <li><p class="tituloTec">Fecha de creación:</p> 22/09/2010</li>
+                        <li><p class="tituloTec">Link:</p> <a href="https://www.amazon.com/">https://www.amazon.com/</a></li>
                     </ul>
                 </div>
             </div>
@@ -174,23 +180,17 @@
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
+                        <li>Java</li>
                     </ul>
                 </div>
                 <div>
-                    <br>
-                    <br>
-                    <br>
                     <ul>
-                        <li>Fecha: 24/07/2000</li>
-                        <li>Link: <a href="https://maps.google.co.ve/">https://maps.google.co.ve/</a></li>
+                        <li><p class="tituloTec">Fecha de creación:</p> 03/10/2019</li>
+                        <li><p class="tituloTec">Link:</p> <a href="https://maps.google.co.ve/">https://maps.google.co.ve/</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
 
 
