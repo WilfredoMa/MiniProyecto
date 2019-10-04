@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,64 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 
+<style>
+    .heroe {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 60px;
+        background-image: url("https://www.xtrafondos.com/wallpapers/lineas-de-colores-3057.jpg");
+        height: 100vh;
+        position: relative;
+    }
+
+    
+
+    .titulo {
+        background-color: midnightblue;
+        border-color: coral;
+        border-width: 1px;
+        border-style: solid;
+        grid-template-columns: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: coral;       
+
+    }
+
+    .barrita{
+        background-color: antiquewhite;
+        font-size: 25px;
+        text-align: center;
+        line-height: 60px;
+        color:darkgoldenrod;
+
+    }
+</style>
+
 <body>
 
-    
-    
+    <div class="heroe">
+        <a class="barrita">Portafolio</a>
+        <a class="barrita">Acerca de mí</a>
+        <a class="barrita">Habilidades y destrezas</a>
+        <a class="barrita">Contacto</a>
 
-<script>src="code.js"</script>
+        <div class="titulo">
+            <h1>PORTAFOLIO DE WILLY WILLY</h1>           
+            <h2>Ingeniero de Sistemas.</h2>
+            <h2>Universidad Metropolitana.</h2>
+        </div>
+
+    </div>
+
+    <div>kkvjbhbjkhk</div>
+
+
+
+
+    <script>src = "code.js"</script>
 </body>
+
 </html>
