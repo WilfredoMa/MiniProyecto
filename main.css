@@ -174,5 +174,15 @@
     margin-top: 15px;
 }
 
+.up{
+    background-color: #c9d1c8;
+    color: #04202c;
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
 
 
