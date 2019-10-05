@@ -164,9 +164,26 @@
     .flechitas{
         width: 60px;
         margin-left: 35%;
+    }
 
+    .contacto{
+        display: grid;
+        grid-template-columns: 10% 20% 33%;
+        grid-template-rows: 20% 20% 20% 20%;
+        grid-column-gap: 10px;
+        margin-left: 3.4vw;
+        margin-right: 4.4vw;
+        color:#c9d1c8;
+    }
+
+    .icons{
+        width: 30px;
+        height: 30px;
     }
     
+    .contacto a{
+        margin-top: 15px;
+    }
 
     
 </style>
@@ -210,7 +227,7 @@
                 <div>
                     <ul>
                         <li><p class="tituloTec">Fecha de creación:</p> 24/07/2000</li>
-                        <li><p class="tituloTec">Link:</p><a href="http://sirius.unimet.edu.ve/">http://sirius.unimet.edu.ve/</a></li>
+                        <li><p class="tituloTec">Link:</p><a href="http://sirius.unimet.edu.ve/" target="_blank">http://sirius.unimet.edu.ve/</a></li>
                     </ul>
                 </div>
             </div>
@@ -234,7 +251,7 @@
                 <div>
                     <ul>
                         <li><p class="tituloTec">Fecha de creación:</p> 22/09/2010</li>
-                        <li><p class="tituloTec">Link:</p> <a href="https://www.amazon.com/">https://www.amazon.com/</a></li>
+                        <li><p class="tituloTec">Link:</p> <a href="https://www.amazon.com/" target="_blank">https://www.amazon.com/</a></li>
                     </ul>
                 </div>
             </div>
@@ -259,7 +276,7 @@
                 <div>
                     <ul>
                         <li><p class="tituloTec">Fecha de creación:</p> 03/10/2019</li>
-                        <li><p class="tituloTec">Link:</p> <a href="https://maps.google.co.ve/">https://maps.google.co.ve/</a></li>
+                        <li><p class="tituloTec">Link:</p> <a href="https://maps.google.co.ve/" target="_blank">https://maps.google.co.ve/</a></li>
                     </ul>
                 </div>
             </div>
@@ -330,7 +347,25 @@
         <p>30</p>
     </div>
 
-    <div>Este es el contacto</div>
+    <div class="tituloSeparador">
+            <p>Contáctame:</p>
+    </div>
+
+    <div class="contacto">
+
+        <p>Teléfono:</p>
+        <a href="https://api.whatsapp.com/send?phone=584142297278&text=" target="_blank">+58 414-2297278</a>
+        <img class="icons" src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721678-whatsapp_108065.png" alt="Icono de Whatsapp">
+
+        <p>Correo electrónico:</p>
+        <p>wilfredomachado12@gmail.com</p>
+        <img class="icons" src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png" alt="Icono de gmail">
+
+        <p>Instagram: </p>
+        <a href="https://www.instagram.com/wilfredomachado" target="_blank">@wilfredomachado</a>
+        <img class="icons" src="https://png.pngtree.com/element_our/md/20180626/md_5b321ca31d522.png" alt="Icono de Insta">
+
+    </div>
 
 
     <script>src = "code.js"</script>
